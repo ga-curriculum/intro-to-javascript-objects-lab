@@ -1,4 +1,4 @@
-# [tktk Module Name] - Setup
+# Intro to JavaScript Objects Lab - Setup
 
 ![Hero image](./assets/hero.png)
 

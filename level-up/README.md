@@ -1,4 +1,4 @@
-# [tktk Module Name] - Level Up
+# Intro to JavaScript Objects Lab - Level Up
 
 ![Hero image](./assets/hero.png)
 

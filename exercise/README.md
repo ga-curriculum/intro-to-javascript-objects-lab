@@ -1,4 +1,4 @@
-# [tktk Module Name] - Lab Exercise
+# Intro to JavaScript Objects Lab - Lab Exercise
 
 ![Hero image](./assets/hero.png)
 
