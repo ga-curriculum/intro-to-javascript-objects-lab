@@ -39,6 +39,11 @@ const game = {
 Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using node app.js.
 
 ### Exercise 1
+The answer for this exercise has been provided for you: 
+
+```javascript
+console.dir(pokemon, { maxArrayLength: null })
+```
 
 Spend some time inspecting the pokemon data we magically have access to in the
 `pokemon` array that is being logged below. You have not seen this console
@@ -75,9 +80,39 @@ Pokemon with the number 59 using the index of the Pokemon in the array you
 observed. Feel free to uncomment the console.dir as needed to help you 
 complete the rest of the lab.
 
-
-
 ### Exercise 2
-Add a difficulty property to the game object above.
-Give it a value of your choice.
 
+```javascript
+console.log(game)
+```
+
+Take a moment to familiarize yourself with the `game` object being logged.
+It has four properties: `party`, `gyms`, and `items`. All of these hold or will hold an array of objects.
+
+Note that in a full-fledged application, this game object would likely be broken up
+into many smaller objects with more specific jobs - we're using one object here
+for simplicity and utility to ease your learning experience.
+
+- As you move through the exercises `game.party` will hold an array of pokemon 
+  objects that will be retrieved from the `pokemon` array discussed in Exercise
+  Two. These are pokemon that you have caught!
+- game.gyms holds an array of objects, each representing a gym in the game.
+  (gyms are essentially checkpoints placed throughout the game). Note the 
+  `completed` boolean property on each, this will be important later.
+- game.items holds an array of objects, each representing an item held in an
+  player inventory.
+
+When you've completed your inspection of the data, you can comment out the
+console.log and move on to Exercise Three. Feel free to uncomment the
+console.log as needed to help you complete the rest of the lab.
+
+### Exercise 3
+
+```javascript
+// Add a difficulty property to the game object above.
+// Give it a value of your choice.
+
+// Solve Exercise Three here:
+
+console.log('Exercise 3 result:', game.difficulty)
+```
