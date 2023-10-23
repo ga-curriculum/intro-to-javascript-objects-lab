@@ -2,3 +2,82 @@
 
 ![Hero image](./assets/hero.png)
 
+## Introduction
+
+This lab provides an opportunity to practice defining, accessing, and manipulating objects.
+
+### A quick note before you dive in
+Don't hesitate to collaborate with your classmates when working through labs.
+
+If you get stuck during the lab, we recommend revisiting the lesson materials first. They're designed to provide you with the information and examples that will help you complete the exercises.
+
+## Lab Exercises
+
+First, copy and paste the following `game` object into `app.js`:
+
+```javascript
+const game = {
+  party: [],
+  gyms: [
+    { location: "Pewter City", completed: false, difficulty: 1 },
+    { location: "Cerulean City", completed: false, difficulty: 2 },
+    { location: "Vermilion City", completed: false, difficulty: 3 },
+    { location: "Celadon City", completed: false, difficulty: 4 },
+    { location: "Fuchsia City", completed: false, difficulty: 5 },
+    { location: "Saffron City", completed: false, difficulty: 6 },
+    { location: "Cinnabar Island", completed: false, difficulty: 7 },
+    { location: "Viridian City", completed: false, difficulty: 8 },
+  ],
+  items: [
+    { name: "potion", quantity: 4 },
+    { name: "pokeball", quantity: 8 },
+    { name: "rare candy", quantity: 99 },
+  ],
+}
+```
+
+Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using node app.js.
+
+### Exercise 1
+
+Spend some time inspecting the pokemon data we magically have access to in the
+`pokemon` array that is being logged below. You have not seen this console
+method before, but we're using it here so that you're able to see all of the
+pokemon in the console. By default, only the first 100 items in an array are
+shown - we're overriding that behavior here.
+
+Take note of the shape of the data here. Each pokemon object in the array has:
+- a number, which is a number between 1 and 151
+- a name, which is a string
+- a type, which is a string
+- hp (hit points), which is a number
+- a starter boolean.
+
+There's some game-specific terminology here, so if you've never played pokemon
+here's a quick primer on what these mean:
+- All pokemon have a number that acts as a unique identifier
+- All pokemon have a type that indicates their primary abilities. Pokemon 
+  generally have multiple types, but we're only using a pokemon's primary type 
+  here to make working with this data more manageable.
+- All pokemon have hit points - essentially a quantitative measure of a 
+  pokemon's constitution.
+- At the start of a game, a player must select a starting pokemon. Acceptable 
+  starting pokemon objects will have a starter property with a value set to 
+  true. Four pokemon fit this criterion:
+  - Pokemon 1: Bulbasaur
+  - Pokemon 4: Charmander
+  - Pokemon 7: Squirtle
+  - Pokemon 25: Pikachu
+
+When you've completed your inspection of the data, you can comment out the
+console.dir method and use the console.log method to log JUST the name of the 
+Pokemon with the number 59 using the index of the Pokemon in the array you 
+observed. Feel free to uncomment the console.dir as needed to help you 
+complete the rest of the lab.
+
+
+
+### Exercise 2
+Add a difficulty property to the game object above.
+Give it a value of your choice.
+
