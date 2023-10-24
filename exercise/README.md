@@ -109,13 +109,14 @@ console.log as needed to help you complete the rest of the lab.
 ### Exercise 3
 
 ```javascript
-// Add a difficulty property to the game object above.
-// Give it a value of your choice.
+/*
+Add a difficulty property to the game object above.
+Give it a value of your choice.
 
-// Solve Exercise Three here:
+Solve Exercise Three here:
+*/
 
 
-console.log('Exercise 3 result:', game.difficulty)
 ```
 
 
