@@ -226,13 +226,112 @@ After writing this method, make use of it by calling it and passing in a
 pokemon object of your choice from the `pokemon` data to catch it.
 
 Solve Exercise Eleven here:
-
 */
+game.catchPokemon = function(){
+
+}
+
 ```
 
 ### Exercise 12
 
 ```javascript
+/*
+Copy the `catchPokemon` method that you just wrote above, and paste it below.
+Modify it so that the quantity of pokeballs in the `items` array decrements 
+by one each time the method is called, and a pokemon is caught.
 
+For the purposes of this exercise, it's ok to have a negative number of
+pokeballs.
+
+After updating the method, make use of it by calling it and passing in a 
+pokemon object of your choice from the `pokemon` data to catch it.
+
+Also, log the `game.items` array to confirm that the pokeball quantity is being
+decremented.
+
+Solve Exercise Twelve here:
+*/
+
+
+```
+
+### Exercise 13
+
+```javascript
+/*
+Complete the gyms that have a difficulty below 6 (change the value of
+`complete` in the qualifying objects from false to true).
+
+Solve Exercise Thirteen here:
+*/
+
+
+```
+
+### Exercise 14
+
+```javascript
+/*
+Add a method called `gymStatus` to the `game` object. This method should:
+- Not accept any arguments
+- Iterate through the objects in the `game.gyms` array and create 
+  an object with two properties: 
+  - One property, `completed`, should count how many gyms in the array have a
+    value of `true` for their `completed` property. 
+  - The second property, `incomplete`, should count how many gyms in the array
+    have a value of `false` for their `completed` property.
+- After creating the object, its final value should be console logged
+- The method should not return anything.
+
+For example, if five gym objects have a value of `true` on their `completed`
+property and three gym objects have a value of `false` on their `completed` 
+property, the logged value would be: `{ completed: 5, incomplete: 3 }`.
+
+Solve Exercise Fourteen here:
+*/
+
+game.gymStatus = function(){
+
+}
+```
+
+### Exercise 15
+
+```javascript
+/*
+Add a method called `partyCount` to the `game` object. This method should:
+- Not accept any arguments
+- Count the number of pokemon in the party
+- return the found number of pokemon in the party
+
+Solve Exercise Fifteen here:
+*/
+
+game.partyCount = function(){
+  
+}
+```
+
+### Exercise 16
+
+```javascript
+/*
+Complete the gyms that have a difficulty below 8 (change the value of
+`complete` in the qualifying objects from false to true).
+
+Solve Exercise Sixteen here:
+*/
+
+```
+
+### Exercise 17
+
+```javascript
+/*
+Print the `game` object.
+
+Solve Exercise Seventeen here:
+*/
 
 ```
