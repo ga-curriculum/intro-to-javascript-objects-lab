@@ -149,10 +149,14 @@ Solve Exercise Five here:
 
 ### Exercise 6
 
+For this exercise, you'll need to make use of a compare function to define the sort order of `.sort()`. 
+
+Check out the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#comparefn) for more information and examples. 
+
 ```javascript
 /*
 Sort the pokemon in the `game.party` by their total hit points (`hp`) in
-descenting order from the greatest to the least.
+descending order from the greatest to the least.
 
 Solve Exercise Six here:
 */
