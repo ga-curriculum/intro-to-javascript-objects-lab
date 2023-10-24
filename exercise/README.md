@@ -114,5 +114,125 @@ console.log as needed to help you complete the rest of the lab.
 
 // Solve Exercise Three here:
 
+
 console.log('Exercise 3 result:', game.difficulty)
+```
+
+
+### Exercise 4
+
+```javascript
+/*
+Select a pokemon from the `pokemon` data with a starter property value set to 
+`true` and add it to the `game.party` array. 
+
+Solve Exercise Four here:
+*/
+
+
+```
+
+### Exercise 5
+
+```javascript
+/*
+
+Select three more pokemon of your choice from the `pokemon` data and add them 
+to the `game.party` array.
+
+Solve Exercise Five here:
+*/
+
+
+
+```
+
+### Exercise 6
+
+```javascript
+/*
+Sort the pokemon in the `game.party` by their total hit points (`hp`) in
+descenting order from the greatest to the least.
+
+Solve Exercise Six here:
+*/
+
+```
+
+### Exercise 7
+
+```javascript
+/*
+
+Complete the gyms that have a difficulty below 3 (change the value of
+`complete` in the qualifying objects from false to true).
+
+Solve Exercise Seven here:
+*/
+
+```
+
+### Exercise 8
+
+```javascript
+/*
+Evolve the starting pokemon that you picked out in Exercise Four.
+
+Hint: 
+- Pokemon 1: Bulbasaur evolves into Pokemon 2: Ivysaur
+- Pokemon 4: Charmander evolves into Pokemon 5: Charmeleon
+- Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle
+- Pokemon 25: Pikachu evolves into Pokemon 26: Raichu
+
+More Hints: The existing starter pokemon will be *replaced* in your party with
+            the pokemon that it evolved into.
+
+Solve Exercise Eight here:
+*/
+
+```
+
+### Exercise 9
+
+```javascript
+/*
+Print out the name of each pokemon in your party.
+
+Solve Exercise Nine here:
+*/
+
+```
+
+### Exercise 10
+
+```javascript
+/*
+Print out the name of every starter pokemon.
+
+Solve Exercise Ten here:
+*/
+```
+
+### Exercise 11
+
+```javascript
+/*
+Add a method called `catchPokemon` to the `game` object. This method should:
+- Accept an object on a parameter called `pokemonObj`
+- Add the `pokemonObj` to the `game.party` array.
+- not return anything
+
+After writing this method, make use of it by calling it and passing in a 
+pokemon object of your choice from the `pokemon` data to catch it.
+
+Solve Exercise Eleven here:
+
+*/
+```
+
+### Exercise 12
+
+```javascript
+
+
 ```
