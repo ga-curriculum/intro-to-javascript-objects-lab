@@ -188,8 +188,7 @@ Hint:
 - Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle
 - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu
 
-More Hints: The existing starter pokemon will be *replaced* in your party with
-            the pokemon that it evolved into.
+More Hints: The existing starter pokemon will be *replaced* in your party with the pokemon that it evolved into. Remember that you're working with an array of objects - what array method is ideal for replacing one element with another? 
 
 Solve Exercise Eight here:
 */
@@ -243,16 +242,13 @@ game.catchPokemon = function(){
 /*
 Copy the `catchPokemon` method that you just wrote above, and paste it below.
 Modify it so that the quantity of pokeballs in the `items` array decrements 
-by one each time the method is called, and a pokemon is caught.
+by one each time the method is called.
 
-For the purposes of this exercise, it's ok to have a negative number of
-pokeballs.
+For the purposes of this exercise, it's ok to have a negative number of pokeballs.
 
-After updating the method, make use of it by calling it and passing in a 
-pokemon object of your choice from the `pokemon` data to catch it.
+After updating the method, make use of it by calling it and passing in a pokemon object of your choice from the `pokemon` data to catch it.
 
-Also, log the `game.items` array to confirm that the pokeball quantity is being
-decremented.
+Also, log the `game.items` array to confirm that the pokeball quantity is being decremented.
 
 Solve Exercise Twelve here:
 */
@@ -279,8 +275,7 @@ Solve Exercise Thirteen here:
 /*
 Add a method called `gymStatus` to the `game` object. This method should:
 - Not accept any arguments
-- Iterate through the objects in the `game.gyms` array and create 
-  an object with two properties: 
+- Iterate through the objects in the `game.gyms` array and create an object with two properties: 
   - One property, `completed`, should count how many gyms in the array have a
     value of `true` for their `completed` property. 
   - The second property, `incomplete`, should count how many gyms in the array
@@ -291,6 +286,12 @@ Add a method called `gymStatus` to the `game` object. This method should:
 For example, if five gym objects have a value of `true` on their `completed`
 property and three gym objects have a value of `false` on their `completed` 
 property, the logged value would be: `{ completed: 5, incomplete: 3 }`.
+
+Hint: It may be helpful to create an 'accumulator' object - in this case an object with properties of 'completed' and 'incomplete' set to 0 - in order to more easily solve this exercise. 
+
+If attempting to solve this problem using a .forEach() method, this accumulator object would be declared first. 
+
+If solving with .reduce(), the accumulator object can be passed as the 'initialValue' instead. 
 
 Solve Exercise Fourteen here:
 */
