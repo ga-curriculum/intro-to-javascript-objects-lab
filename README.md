@@ -4,7 +4,7 @@
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+This lab is designed for beginner to intermediate learners and focuses on providing hands-on practice with objects in JavaScript. It aims to build a foundational understanding of this essential data type through a series of exercises and challenges. By the end of the lab, participants will be comfortable creating and manipulating objects, as well as working with arrays of objects, setting a strong foundation for more advanced programming concepts. Ideal for learners new to objects, this lab serves as both an introduction and a skill-building opportunity.
 
 ## Lab content
 
@@ -15,7 +15,7 @@ tktk Introduce the lab. What will the students build in this lab?
 
 ## Time to complete
 
-tktk Estimated time to complete core lab exercise: 
+Estimated time to complete core lab exercise: 90 min
 
 ## Additional content 
 
