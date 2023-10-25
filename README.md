@@ -10,8 +10,7 @@ This lab is designed for beginner to intermediate learners and focuses on provid
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [tktk Starter code remove if no starter](#tktk-external-repo-link)
-- [tktk Solution code](#tktk-external-repo-link)
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects-lab-solution)
 
 ## Time to complete
 
