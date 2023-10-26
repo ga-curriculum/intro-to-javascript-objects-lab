@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects Lab - Lab Exercise
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects Lab - Lab Exercise](./assets/hero.png)
 
 ## Introduction
 

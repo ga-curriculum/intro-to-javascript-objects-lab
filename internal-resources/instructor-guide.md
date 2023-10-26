@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects Lab - Instructor Guide
-
-![Hero image](../assets/tktkhero-secondary.png)
+# ![Intro to JavaScript Objects Lab - Instructor Guide](../assets/tktkhero-secondary.png)
 
 
 🏗️ **Under Construction**
