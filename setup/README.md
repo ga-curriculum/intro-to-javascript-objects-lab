@@ -29,7 +29,7 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the `index.html` file and add HTML boilerplate. Then make use of the `data.js` and `app.js` files by adding these lines inside the <head> tag:
+Open the `index.html` file and add HTML boilerplate. Then make use of the `data.js` and `app.js` files by adding these lines inside the `<head>` tag:
 
 ```html
 <script defer src="./data.js"></script>
@@ -197,11 +197,11 @@ const pokemon = [
 
 With this setup complete, we'll have two methods at our disposal for executing the code we write in `app.js`:
 
-Open the index.html file in your browser and access the console output in your browser's dev tools.
-Use `node` to execute the `app.js` file directly by using this command in your terminal:
+- Open the `index.html` file in your browser and access the console output in your browser's dev tools.
+- Use `node` to execute the `app.js` file directly by using this command in your terminal:
 
-```bash
-node app.js
-```
+  ```bash
+  node app.js
+  ```
 
 While either method is acceptable, you should use the same method as your instructor for simplicity.
