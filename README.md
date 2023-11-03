@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects Lab](./assets/tktkhero-main.png)
+# ![Intro to JavaScript Objects Lab](./assets/hero.pngg)
 
 ## About
 

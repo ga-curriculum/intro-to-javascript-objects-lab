@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects Lab - Instructor Guide](../assets/tktkhero-secondary.png)
+# ![Intro to JavaScript Objects Lab - Instructor Guide](../assets/instructor-guide.png)
 
 
 🏗️ **Under Construction**
