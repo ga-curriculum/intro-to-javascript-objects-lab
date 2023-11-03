@@ -26,14 +26,6 @@ With the files created, open the contents of the directory in VS Code:
 ```bash
 code .
 ```
-
-Open the `index.html` file and add HTML boilerplate. Then make use of the `data.js` and `app.js` files by adding these lines inside the `<head>` tag:
-
-```html
-<script defer src="./data.js"></script>
-<script defer src="./app.js"></script>
-```
-
 Open `data.js` and copy the following code into it: 
 
 ```javascript
@@ -193,13 +185,45 @@ const pokemon = [
 ]
 ```
 
-With this setup complete, we'll have two methods at our disposal for executing the code we write in `app.js`:
+From this point, you have two options. You can either run the code from the browser, or using node. Follow the appropriate setup path below to finish setup for this lab: 
 
-- Open the `index.html` file in your browser and access the console output in your browser's dev tools.
-- Use `node` to execute the `app.js` file directly by using this command in your terminal:
+## From the Browser
 
-  ```bash
-  node app.js
-  ```
+Open the `index.html` file and add HTML boilerplate. Then make use of the `data.js` and `app.js` files by adding these lines inside the <head> tag:
 
-While either method is acceptable, you should use the same method as your instructor for simplicity.
+```html
+<script defer src="./data.js"></script>
+<script defer src="./app.js"></script>
+```
+
+Open the index.html file in your browser and access the console output in your browser's dev tools.
+
+## Using Node
+
+> 🚨 You’ll notice a few things are different about this lab compared to other projects that we’ve dealt with before. You’ll have to take a couple of things on faith, because they make this more complex project work. 
+
+- At the bottom of `data.js` (after the `pokemon` object), add the following:
+
+```javascript
+module.exports = pokemon
+```
+
+- Next, add the following line at the top of the `app.js` file:
+```javascript 
+const pokemon = require('./data.js')
+```
+
+> Please don't pay any attention to these lines as they are not the focus of this lab. They are being used here to help us split the Pokemon data and our code into seperate files. 
+
+
+Open the `index.html` file and add HTML boilerplate. Then make use of the `app.js` file by adding this lines inside the <head> tag:
+
+```html
+<script defer src="./app.js"></script>
+```
+
+Use `node` to execute the `app.js` file directly by using this command in your terminal:
+
+```bash
+node app.js
+```

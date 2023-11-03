@@ -69,6 +69,7 @@ There's some game-specific terminology here, so if you've never played Pokemon, 
 When you've completed your inspection of the data, you can comment out the `console.dir()` method and use the `console.log()` method to log JUST the name of the Pokemon with the number 59 using the index of the Pokemon in the array you observed. Feel free to uncomment the `console.dir()` as needed to help you complete the rest of the lab.
 
 ### Exercise 2
+Next, add the following `console.log`:
 
 Run the following:
 
