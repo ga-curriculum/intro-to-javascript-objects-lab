@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects Lab - Release Notes](../assets/tktkhero-secondary.png)
+# ![Intro to JavaScript Objects Lab - Release Notes](../assets/release-notes.png)
 
 ## Version 1.0 - Updates from legacy content
 
