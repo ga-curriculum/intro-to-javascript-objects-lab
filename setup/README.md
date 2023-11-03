@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects Lab - Setup
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects Lab - Setup](./assets/hero.png)
 
 ## Setup 
 

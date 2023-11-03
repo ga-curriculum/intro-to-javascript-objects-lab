@@ -1,24 +1,31 @@
-# Intro to JavaScript Objects Lab
+# ![Intro to JavaScript Objects Lab](./assets/tktkhero-main.png)
 
-![Hero image](./assets/tktkhero-main.png)
-
-## Introduction
+## About
 
 This lab is designed for beginner to intermediate learners and focuses on providing hands-on practice with objects in JavaScript. It aims to build a foundational understanding of this essential data type through a series of exercises and challenges. By the end of the lab, participants will be comfortable creating and manipulating objects, as well as working with arrays of objects, setting a strong foundation for more advanced programming concepts. Ideal for learners new to objects, this lab serves as both an introduction and a skill-building opportunity.
 
-## Lab content
+## Prerequisites
 
-- [Setup](./setup/README.md)
-- [Lab exercise](./exercise/README.md)
-- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects-lab-solution)
+ - Javascript Control Flow
+ - Javascript Functions
+ - Intro to Javascript Objects
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: 90 min
+Estimated time to complete core lab exercise: **90 min**
 
-## Additional content 
+## Content
+
+- [Setup](./setup/README.md)
+- [Lab exercise](./exercise/README.md)
+
+## Level Up
 
 🚀 [Level Up](./level-up/README.md)
+
+## Solution Code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects-lab-solution)
 
 ## Internal resources
 

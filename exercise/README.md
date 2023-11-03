@@ -1,17 +1,16 @@
-# Intro to JavaScript Objects Lab - Lab Exercise
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects Lab - Lab Exercise](./assets/hero.png)
 
 ## Introduction
 
 This lab provides an opportunity to practice defining, accessing, and manipulating objects.
 
 ### A quick note before you dive in
+
 Don't hesitate to collaborate with your classmates when working through labs.
 
 If you get stuck during the lab, we recommend revisiting the lesson materials first. They're designed to provide you with the information and examples that will help you complete the exercises.
 
-## Lab Exercises
+## Lab exercises
 
 First, copy and paste the following `game` object into `app.js`:
 
@@ -36,83 +35,61 @@ const game = {
 }
 ```
 
-Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using node app.js.
+Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node app.js`.
 
 ### Exercise 1
-The answer for this exercise is provided for you - add the following to app.js: 
+
+Spend some time inspecting the `pokemon` array by running the following command:
 
 ```javascript
 console.dir(pokemon, { maxArrayLength: null })
 ```
 
-Spend some time inspecting the pokemon data we magically have access to in the
-`pokemon` array that is being logged below. You have not seen this console
-method before, but we're using it here so that you're able to see all of the
-pokemon in the console. By default, only the first 100 items in an array are
-shown - we're overriding that behavior here.
+You have not seen this console method before, but we're using it here so that you can see all of the Pokemon in the console. By default, `console.dir()` and `console.log()` display only the first 100 items in an array. `{ maxArrayLength: null }` will tell `console.dir()` to display all items in the array. This option is unavailable in `console.log()`, so we need to use `console.dir()`
 
-Take note of the shape of the data here. Each pokemon object in the array has:
+Take note of the shape of the data here. Each Pokemon object in the array has the following:
+
 - a number, which is a number between 1 and 151
 - a name, which is a string
 - a type, which is a string
 - hp (hit points), which is a number
 - a starter boolean.
 
-There's some game-specific terminology here, so if you've never played pokemon
-here's a quick primer on what these mean:
-- All pokemon have a number that acts as a unique identifier
-- All pokemon have a type that indicates their primary abilities. Pokemon 
-  generally have multiple types, but we're only using a pokemon's primary type 
-  here to make working with this data more manageable.
-- All pokemon have hit points - essentially a quantitative measure of a 
-  pokemon's constitution.
-- At the start of a game, a player must select a starting pokemon. Acceptable 
-  starting pokemon objects will have a starter property with a value set to 
-  true. Four pokemon fit this criterion:
+There's some game-specific terminology here, so if you've never played Pokemon, here's a quick primer on what these mean:
+
+- All Pokemon have a number that acts as a unique identifier.
+- All Pokemon have a type that indicates their primary abilities. Pokemon generally have multiple types, but we're only using a Pokemon's primary type here to make working with this data more manageable.
+- All Pokemon have hit points - essentially a quantitative measure of a Pokemon's health.
+- At the start of a game, a player must select a starting Pokemon. Acceptable starting Pokemon objects will have a starter property with a value set to true. Four Pokemon fit this criterion:
   - Pokemon 1: Bulbasaur
   - Pokemon 4: Charmander
   - Pokemon 7: Squirtle
   - Pokemon 25: Pikachu
 
-When you've completed your inspection of the data, you can comment out the
-console.dir method and use the console.log method to log JUST the name of the 
-Pokemon with the number 59 using the index of the Pokemon in the array you 
-observed. Feel free to uncomment the console.dir as needed to help you 
-complete the rest of the lab.
+When you've completed your inspection of the data, you can comment out the `console.dir()` method and use the `console.log()` method to log JUST the name of the Pokemon with the number 59 using the index of the Pokemon in the array you observed. Feel free to uncomment the `console.dir()` as needed to help you complete the rest of the lab.
 
 ### Exercise 2
 Next, add the following `console.log`:
+
+Run the following:
 
 ```javascript
 console.log(game)
 ```
 
-Take a moment to familiarize yourself with the `game` object being logged.
-It has four properties: `party`, `gyms`, and `items`. All of these hold or will hold an array of objects.
+Take a moment to familiarize yourself with the `game` object being logged. It has four properties: `party`, `gyms`, and `items`. All of these hold or will hold an array of objects.
 
-Note that in a full-fledged application, this game object would likely be broken up
-into many smaller objects with more specific jobs - we're using one object here
-for simplicity and utility to ease your learning experience.
+- As you move through the exercises, `game.party` will hold an array of Pokemon objects that will be retrieved from the `pokemon` array discussed in Exercise 1. These are Pokemon that you have caught!
+- `game.gyms` holds an array of objects, each representing a gym in the game (checkpoints placed throughout the game). Note the `completed` boolean property on each. This will be important later.
+- `game.items` holds an array of objects, each representing an item in a player's inventory.
 
-- As you move through the exercises `game.party` will hold an array of pokemon 
-  objects that will be retrieved from the `pokemon` array discussed in Exercise
-  Two. These are pokemon that you have caught!
-- game.gyms holds an array of objects, each representing a gym in the game.
-  (gyms are essentially checkpoints placed throughout the game). Note the 
-  `completed` boolean property on each, this will be important later.
-- game.items holds an array of objects, each representing an item held in an
-  player inventory.
-
-When you've completed your inspection of the data, you can comment out the
-console.log and move on to Exercise Three. Feel free to uncomment the
-console.log as needed to help you complete the rest of the lab.
+When you've completed your inspection of the data, you can comment out the console.log and move on to Exercise 3. Feel free to uncomment the console.log as needed to help you complete the rest of the lab.
 
 ### Exercise 3
 
 ```javascript
 /*
-Add a difficulty property to the game object above.
-Give it a value of your choice.
+Add a difficulty property to the game object above. Give it a value of your choice.
 
 Solve Exercise Three here:
 */
@@ -125,8 +102,7 @@ Solve Exercise Three here:
 
 ```javascript
 /*
-Select a pokemon from the `pokemon` data with a starter property value set to 
-`true` and add it to the `game.party` array. 
+Select a Pokemon from the `pokemon` array with a starter property value set to `true` and add it to the `game.party` array. 
 
 Solve Exercise Four here:
 */
@@ -138,9 +114,7 @@ Solve Exercise Four here:
 
 ```javascript
 /*
-
-Select three more pokemon of your choice from the `pokemon` data and add them 
-to the `game.party` array.
+Select three more Pokemon of your choice from the `pokemon` data and add them to the `game.party` array.
 
 Solve Exercise Five here:
 */
@@ -157,8 +131,7 @@ Check out the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaS
 
 ```javascript
 /*
-Sort the pokemon in the `game.party` by their total hit points (`hp`) in
-descending order from the greatest to the least.
+Sort the Pokemon in the `game.party` by their total hit points (`hp`) in descending order from the greatest to the least.
 
 Solve Exercise Six here:
 */
@@ -170,8 +143,7 @@ Solve Exercise Six here:
 ```javascript
 /*
 
-Complete the gyms that have a difficulty below 3 (change the value of
-`complete` in the qualifying objects from false to true).
+Complete the gyms that have a difficulty below 3 (change the value of `complete` in the qualifying objects from false to true).
 
 Solve Exercise Seven here:
 */
@@ -182,15 +154,15 @@ Solve Exercise Seven here:
 
 ```javascript
 /*
-Evolve the starting pokemon that you picked out in Exercise Four.
+Evolve the starting Pokemon that you picked out in Exercise Four.
 
 Hint: 
-- Pokemon 1: Bulbasaur evolves into Pokemon 2: Ivysaur
-- Pokemon 4: Charmander evolves into Pokemon 5: Charmeleon
-- Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle
-- Pokemon 25: Pikachu evolves into Pokemon 26: Raichu
+  - Pokemon 1: Bulbasaur evolves into Pokemon 2: Ivysaur
+  - Pokemon 4: Charmander evolves into Pokemon 5: Charmeleon
+  - Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle
+  - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu
 
-More Hints: The existing starter pokemon will be *replaced* in your party with the pokemon that it evolved into. Remember that you're working with an array of objects - what array method is ideal for replacing one element with another? 
+More Hints: The existing starter Pokemon will be *replaced* in your party with the Pokemon it evolved into. Remember that you're working with an array of objects - what array method is ideal for replacing one element with another? 
 
 Solve Exercise Eight here:
 */
@@ -201,7 +173,7 @@ Solve Exercise Eight here:
 
 ```javascript
 /*
-Print out the name of each pokemon in your party.
+Print out the name of each Pokemon in your party.
 
 Solve Exercise Nine here:
 */
@@ -212,7 +184,7 @@ Solve Exercise Nine here:
 
 ```javascript
 /*
-Print out the name of every starter pokemon.
+Print out the name of every starter Pokemon.
 
 Solve Exercise Ten here:
 */
@@ -223,32 +195,25 @@ Solve Exercise Ten here:
 ```javascript
 /*
 Add a method called `catchPokemon` to the `game` object. This method should:
-- Accept an object on a parameter called `pokemonObj`
-- Add the `pokemonObj` to the `game.party` array.
-- not return anything
+  - Accept an object as a parameter called `pokemonObj`
+  - Add the `pokemonObj` to the `game.party` array.
+  - not return anything
 
-After writing this method, make use of it by calling it and passing in a 
-pokemon object of your choice from the `pokemon` data to catch it.
+After writing this method, call it and pass in a Pokemon object of your choice from the `pokemon` data to catch it.
 
 Solve Exercise Eleven here:
 */
-game.catchPokemon = function(){
-
-}
-
 ```
 
 ### Exercise 12
 
 ```javascript
 /*
-Copy the `catchPokemon` method that you just wrote above, and paste it below.
-Modify it so that the quantity of pokeballs in the `items` array decrements 
-by one each time the method is called.
+Copy the `catchPokemon` method that you just wrote above, and paste it below. Modify it so that the quantity of pokeballs in the `items` array decreases by one each time the method is called.
 
-For the purposes of this exercise, it's ok to have a negative number of pokeballs.
+For this exercise, it's okay to have a negative number of pokeballs.
 
-After updating the method, make use of it by calling it and passing in a pokemon object of your choice from the `pokemon` data to catch it.
+After updating the method, call it and pass in a Pokemon object of your choice from the `pokemon` data to catch it.
 
 Also, log the `game.items` array to confirm that the pokeball quantity is being decremented.
 
@@ -262,8 +227,7 @@ Solve Exercise Twelve here:
 
 ```javascript
 /*
-Complete the gyms that have a difficulty below 6 (change the value of
-`complete` in the qualifying objects from false to true).
+Complete the gyms that have a difficulty below 6 (change the value of `complete` in the qualifying objects from false to true).
 
 Solve Exercise Thirteen here:
 */
@@ -276,31 +240,22 @@ Solve Exercise Thirteen here:
 ```javascript
 /*
 Add a method called `gymStatus` to the `game` object. This method should:
-- Not accept any arguments
-- Iterate through the objects in the `game.gyms` array and create an object with two properties: 
-  - One property, `completed`, should count how many gyms in the array have a
-    value of `true` for their `completed` property. 
-  - The second property, `incomplete`, should count how many gyms in the array
-    have a value of `false` for their `completed` property.
-- After creating the object, its final value should be console logged
-- The method should not return anything.
+  - Not accept any arguments.
+  - Initially create a constant `gymTally`, which is an object that has two 
+    properties: `completed` and `incomplete`, both of which are initially set to 0.
+  - Iterate through the objects in the `game.gyms` array and update the 
+    properties on `gymTally` as follows: 
+    - `completed` should count how many gyms in the array have a value of `true` 
+      for their `completed` property. 
+    - `incomplete` should count how many gyms in the array have a value of 
+      `false` for their `completed` property.
+  - Log the value of `gymTally`.
+  - The method should not return anything.
 
-For example, if five gym objects have a value of `true` on their `completed`
-property and three gym objects have a value of `false` on their `completed` 
-property, the logged value would be: `{ completed: 5, incomplete: 3 }`.
-
-Hint: It may be helpful to create an 'accumulator' object - in this case an object with properties of 'completed' and 'incomplete' set to 0 - in order to more easily solve this exercise. 
-
-If attempting to solve this problem using a .forEach() method, this accumulator object would be declared first. 
-
-If solving with .reduce(), the accumulator object can be passed as the 'initialValue' instead. 
+For example, if five gym objects have a value of `true` on their `completed` property and three gym objects have a value of `false` on their `completed` property, the logged value would be: `{ completed: 5, incomplete: 3 }`.
 
 Solve Exercise Fourteen here:
 */
-
-game.gymStatus = function(){
-
-}
 ```
 
 ### Exercise 15
@@ -308,28 +263,22 @@ game.gymStatus = function(){
 ```javascript
 /*
 Add a method called `partyCount` to the `game` object. This method should:
-- Not accept any arguments
-- Count the number of pokemon in the party
-- return the found number of pokemon in the party
+  - Not accept any arguments.
+  - Count the number of Pokemon in the party.
+  - return the found number of Pokemon in the party.
 
 Solve Exercise Fifteen here:
 */
-
-game.partyCount = function(){
-  
-}
 ```
 
 ### Exercise 16
 
 ```javascript
 /*
-Complete the gyms that have a difficulty below 8 (change the value of
-`complete` in the qualifying objects from false to true).
+Complete the gyms that have a difficulty below 8 (change the value of `complete` in the qualifying objects from false to true).
 
 Solve Exercise Sixteen here:
 */
-
 ```
 
 ### Exercise 17
@@ -343,4 +292,4 @@ Solve Exercise Seventeen here:
 
 ```
 
-Congrats, you're done! If you'ld like to challenge yourself, you can continue on to Exercise in the level-up section. 
+Congrats, you're done! If you'd like to challenge yourself, you can continue on to the exercises in the Level Up. 
