@@ -113,7 +113,6 @@ Solve Exercise Four here:
 
 ```javascript
 /*
-
 Select three more Pokemon of your choice from the `pokemon` data and add them to the `game.party` array.
 
 Solve Exercise Five here:
@@ -227,8 +226,7 @@ Solve Exercise Twelve here:
 
 ```javascript
 /*
-Complete the gyms that have a difficulty below 6 (change the value of
-`complete` in the qualifying objects from false to true).
+Complete the gyms that have a difficulty below 6 (change the value of `complete` in the qualifying objects from false to true).
 
 Solve Exercise Thirteen here:
 */
