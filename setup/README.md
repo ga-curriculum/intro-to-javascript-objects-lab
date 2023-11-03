@@ -200,7 +200,7 @@ Open the index.html file in your browser and access the console output in your b
 
 ## Using Node
 
-> 🚨 You’ll notice a few things are different about this lab compared to other projects that we’ve dealt with before. You’ll have to take a couple of things on faith, because they make this more complex project work. 
+> 🚨 You’ll notice the setup steps are different for this lab compared to other work you may done in the past. You’ll have to take a couple of things on faith, because they make this more complex project work. 
 
 - At the bottom of `data.js` (after the `pokemon` object), add the following:
 
