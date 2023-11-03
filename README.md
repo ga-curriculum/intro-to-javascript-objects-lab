@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects Lab](./assets/hero.pngg)
+# ![Intro to JavaScript Objects Lab](./assets/hero.png)
 
 ## About
 
