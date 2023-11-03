@@ -39,7 +39,7 @@ const game = {
 Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using node app.js.
 
 ### Exercise 1
-The answer for this exercise has been provided for you: 
+The answer for this exercise is provided for you - add the following to app.js: 
 
 ```javascript
 console.dir(pokemon, { maxArrayLength: null })
@@ -81,6 +81,7 @@ observed. Feel free to uncomment the console.dir as needed to help you
 complete the rest of the lab.
 
 ### Exercise 2
+Next, add the following `console.log`:
 
 ```javascript
 console.log(game)
