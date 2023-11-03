@@ -10,7 +10,7 @@ Don't hesitate to collaborate with your classmates when working through labs.
 
 If you get stuck during the lab, we recommend revisiting the lesson materials first. They're designed to provide you with the information and examples that will help you complete the exercises.
 
-## Lab Exercises
+## Lab exercises
 
 First, copy and paste the following `game` object into `app.js`:
 
