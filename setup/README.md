@@ -216,7 +216,7 @@ const pokemon = require('./data.js')
 > Please don't pay any attention to these lines as they are not the focus of this lab. They are being used here to help us split the Pokemon data and our code into seperate files. 
 
 
-Open the `index.html` file and add HTML boilerplate. Then make use of the `app.js` file by adding this lines inside the <head> tag:
+Open the `index.html` file and add HTML boilerplate. Then make use of the `app.js` file by adding this line inside the <head> tag:
 
 ```html
 <script defer src="./app.js"></script>
