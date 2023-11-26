@@ -58,10 +58,10 @@ Take note of the shape of the data here. Each Pokemon object in the array has th
 
 There's some game-specific terminology here, if you're new to Pokémon, here's an explanation of the terms used in the game:
 
-**Number**: Each Pokémon has a unique number as its identifier.
-**Type**: This refers to a Pokémon's primary abilities. While Pokémon can have multiple types, we're focusing on their primary type here for simplicity.
-**Hit Points (HP)**: This is a measure of a Pokémon's health, expressed in a numerical value.
-**Starter Pokémon**: At the beginning of the game, players choose a starting Pokémon. In our data, starter Pokémon are marked with a starter property set to true. 
+- **Number**: Each Pokémon has a unique number as its identifier.
+- **Type**: This refers to a Pokémon's primary abilities. While Pokémon can have multiple types, we're focusing on their primary type here for simplicity.
+- **Hit Points (HP)**: This is a measure of a Pokémon's health, expressed in a numerical value.
+- **Starter Pokémon**: At the beginning of the game, players choose a starting Pokémon. In our data, starter Pokémon are marked with a starter property set to true. 
 
 The starter Pokémon options are:
  - Pokémon 1: Bulbasaur
