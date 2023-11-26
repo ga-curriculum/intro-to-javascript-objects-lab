@@ -189,7 +189,7 @@ From this point, you have two options. You can either run the code from the brow
 
 ## From the Browser
 
-Open the `index.html` file and add HTML boilerplate. Then make use of the `data.js` and `app.js` files by adding these lines inside the <head> tag:
+Open the `index.html` file and add HTML boilerplate. Then link both `data.js` and `app.js` by adding these lines inside the <head> tag in this order:
 
 ```html
 <script defer src="./data.js"></script>
@@ -200,7 +200,7 @@ Open the index.html file in your browser and access the console output in your b
 
 ## Using Node
 
-> 🚨 You’ll notice the setup steps are different for this lab compared to other work you may done in the past. You’ll have to take a couple of things on faith, because they make this more complex project work. 
+> 🚨 This lab requires a setup process that may differ from previous labs. Some unfamiliar steps are necessary to work with multiple JavaScript files. 
 
 - At the bottom of `data.js` (after the `pokemon` object), add the following:
 
@@ -213,14 +213,7 @@ module.exports = pokemon
 const pokemon = require('./data.js')
 ```
 
-> Please don't pay any attention to these lines as they are not the focus of this lab. They are being used here to help us split the Pokemon data and our code into seperate files. 
-
-
-Open the `index.html` file and add HTML boilerplate. Then make use of the `app.js` file by adding this line inside the <head> tag:
-
-```html
-<script defer src="./app.js"></script>
-```
+> This step is essential for dividing the Pokemon data and our code into separate files. While these steps are critical to run your code, they are not the primary focus of this lab, so detailed understanding at this stage is not required. You can ignore what is happening in the background for now. 
 
 Use `node` to execute the `app.js` file directly by using this command in your terminal:
 

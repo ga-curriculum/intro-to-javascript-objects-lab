@@ -4,6 +4,7 @@
 
 ```javascript
 /*
+Exercise 18
 Add a new property to the `game` object called `collection` and initialize its value to an empty array.
 
 Copy the `catchPokemon` method you wrote in Exercise Twelve and paste it below. Modify it so that:
@@ -18,7 +19,7 @@ After updating the method, use it by calling it and passing in a pokemon object 
 
 Also, log the `game.items` array to confirm that the pokeball quantity is being decremented.
 
-Solve Exercise Eighteen here:
+Solve Exercise 18 here:
 */
 
 
@@ -28,13 +29,14 @@ Solve Exercise Eighteen here:
 
 ```javascript
 /*
+Exercise 19
 Copy the `catchPokemon` method that you just wrote above, and paste it below. The time has come to make it so that we cannot catch a Pokemon when we do not have any pokeballs to catch it with. 
 
 Modify the method so that if there are no pokeballs a message will be displayed that there are not enough pokeballs to catch the desired Pokemon.
 
 Also, ensure that the Pokemon isn't added to the `game.party` or the `game.collection`.
 
-Solve Exercise Nineteen here:
+Solve Exercise 19 here:
 */
 
 ```
@@ -43,13 +45,14 @@ Solve Exercise Nineteen here:
 
 ```javascript
 /*
+Exercise 20
 Copy the `catchPokemon` method that you just wrote above, and paste it below. Modify is so that you can just pass in the name of a Pokemon instead of an entire object, and the method will look up the Pokemon from the data set for you.
 
 The string passed in should be allowed to be any case (for example, if the string 'PiKacHU' is passed to the function, it should match to 'Pikachu' in the data set). 
 
 If there is not a match, then return a string noting that the selected Pokemon does not exist. Ensure you do not decrement the pokeball count if an invalid Pokemon name is passed in, and also ensure that the Pokemon isn't added to the `game.party` or the `game.collection`.
 
-Solve Exercise Twenty here:
+Solve Exercise 20 here:
 */
 
 ```
@@ -58,6 +61,7 @@ Solve Exercise Twenty here:
 
 ```javascript
 /*
+Exercise 21
 Dynamically construct an object with the existing `pokemon` data sorted by the different pokemon types. The object will have this structure:
 
 {
@@ -79,7 +83,7 @@ Dynamically construct an object with the existing `pokemon` data sorted by the d
 
 Log the object when it's constructed.
 
-Solve Exercise Twenty-One here:
+Solve Exercise 21 here:
 */
 
 ```
