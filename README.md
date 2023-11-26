@@ -2,7 +2,7 @@
 
 ## About
 
-This lab offers practical experience with JavaScript objects, targeting beginners and intermediate learners. It helps establish a basic understanding of this key data type via exercises and challenges. Students will learn to create, modify, and use arrays of objects, preparing them for more advanced data manipulation in more complex applications. 
+This lab provides hands-on experience with JavaScript objects. Designed for both beginners and intermediate learners, it aims to build a solid foundation in understanding and using this essential data type. Through interactive exercises, students will master creating, modifying, and implementing arrays of objects. This practical knowledge lays the groundwork for tackling advanced data manipulation in complex applications.
 
 ## Prerequisites
 
