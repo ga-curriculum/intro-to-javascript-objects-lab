@@ -202,13 +202,14 @@ Open the index.html file in your browser and access the console output in your b
 
 > 🚨 This lab requires a setup process that may differ from previous labs. Some unfamiliar steps are necessary to work with multiple JavaScript files. 
 
-- At the bottom of `data.js` (after the `pokemon` object), add the following:
+At the bottom of `data.js` (after the `pokemon` object), add the following:
 
 ```javascript
 module.exports = pokemon
 ```
 
-- Next, add the following line at the top of the `app.js` file:
+Next, add the following line at the top of the `app.js` file:
+
 ```javascript 
 const pokemon = require('./data.js')
 ```
