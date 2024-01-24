@@ -16,7 +16,3 @@ Estimated time to complete core lab exercise: **90 min**
 ## Level Up
 
 🚀 [Level Up](../level-up/README.md)
-
-## Solution Code
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects-lab-solution)
