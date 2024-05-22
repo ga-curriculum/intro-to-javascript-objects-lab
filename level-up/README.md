@@ -1,5 +1,24 @@
 # ![Intro to JavaScript Objects Lab - Level Up](./assets/hero.png)
 
+
+### Exercise 17
+
+For this exercise, you'll need to make use of a compare function to define the sort order of `.sort()`. 
+
+Check out the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#comparefn) for more information and examples. 
+
+```javascript
+/*
+Exercise 17
+1. Arrange the Pokémon in `game.party` by their HP. The one with the highest HP should come first.
+2. You'll need to use the `.sort()` method. How does the compare function work in sorting numbers?
+
+
+Solve Exercise 17 here:
+*/
+
+```
+
 ### Exercise 18
 
 ```javascript
