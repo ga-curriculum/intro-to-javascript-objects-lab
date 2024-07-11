@@ -207,7 +207,7 @@ Solve Exercise 9 here:
 ```javascript
 /*
 Exercise 10
-1. Add a method called `catchPokemon` to the `game` object. This method should:
+Create a method called `catchPokemon` and add it to the `game` object. You should not need to edit the original game object directly. This method should:
   - Accept an object as a parameter called `pokemonObj`
   - Add the `pokemonObj` to the `game.party` array.
   - not return anything
