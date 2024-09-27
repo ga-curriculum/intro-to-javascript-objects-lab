@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Introduction
 

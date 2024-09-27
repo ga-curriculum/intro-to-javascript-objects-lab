@@ -1,5 +1,9 @@
-# ![Intro to JavaScript Objects Lab - Instructor Guide](../assets/instructor-guide.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects Lab</span>
+  <span class="subhead">Instructor Guide</span>
+</h1>
 
+---
 
 🏗️ **Under Construction**
 

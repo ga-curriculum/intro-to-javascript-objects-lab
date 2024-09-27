@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects Lab - Level Up](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects Lab</span>
+  <span class="subhead">README</span>
+</h1>
 
 
 ### Exercise 17
@@ -106,3 +109,4 @@ Solve Exercise 21 here:
 */
 
 ```
+`
