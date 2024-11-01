@@ -1,11 +1,13 @@
-# ![Intro to JavaScript Objects Lab - Level Up](./assets/hero.png)
-
+<h1>
+  <span class="headline">Intro to JavaScript Objects Lab</span>
+  <span class="subhead">Level Up</span>
+</h1>
 
 ### Exercise 17
 
-For this exercise, you'll need to make use of a compare function to define the sort order of `.sort()`. 
+For this exercise, you'll need to make use of a compare function to define the sort order of `.sort()`.
 
-Check out the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#comparefn) for more information and examples. 
+Check out the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#comparefn) for more information and examples.
 
 ```javascript
 /*
@@ -16,7 +18,6 @@ Exercise 17
 
 Solve Exercise 17 here:
 */
-
 ```
 
 ### Exercise 18
@@ -40,8 +41,6 @@ Also, log the `game.items` array to confirm that the pokeball quantity is being 
 
 Solve Exercise 18 here:
 */
-
-
 ```
 
 ### Exercise 19
@@ -57,7 +56,6 @@ Also, ensure that the Pokemon isn't added to the `game.party` or the `game.colle
 
 Solve Exercise 19 here:
 */
-
 ```
 
 ### Exercise 20
@@ -73,7 +71,6 @@ If there is not a match, then return a string noting that the selected Pokemon d
 
 Solve Exercise 20 here:
 */
-
 ```
 
 ### Exercise 21
@@ -104,5 +101,4 @@ Log the object when it's constructed.
 
 Solve Exercise 21 here:
 */
-
 ```
